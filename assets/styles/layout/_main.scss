@@ -1,0 +1,13 @@
+.main {
+  @include flex(row, flex-start, center);
+
+  width: 100%;
+  height: 80%;
+  padding: $padding;
+  background-color: $secondaryBackgroundColor;
+
+  .main__left, .main__right {
+    width: 50%;
+    height: 100%;
+  }
+}

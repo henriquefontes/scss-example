@@ -1,0 +1,21 @@
+@import './helpers/variables';
+@import './helpers/mixins';
+
+@import './basics/reset';
+@import './basics/fonts';
+@import './basics/texts';
+@import './basics/links';
+@import './basics/lists';
+
+@import './layout/header';
+@import './layout/main';
+@import './layout/footer';
+
+@import './modules/headerMenu';
+@import './modules/section';
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $primaryBackgroundColor;
+}

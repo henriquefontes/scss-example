@@ -1,0 +1,12 @@
+h1, h2, h3, h4, span, p, input, button, a {
+  color: $primaryTextColor;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: $largeFontSize;
+}
+
+span, p, a {
+  font-size: $smallFontSize;
+}

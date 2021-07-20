@@ -1,0 +1,12 @@
+.section__left, .section__right {
+  @include flex(column, center, center);
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.section__left {
+  .section__left--image {
+    width: 80%;
+  }
+}
