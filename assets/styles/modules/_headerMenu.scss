@@ -1,5 +1,6 @@
 .menu {
   @include flexRow();
 
+  font-size: $smallFontSize;
   gap: 2rem;
 }

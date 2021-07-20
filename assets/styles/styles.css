@@ -20,15 +20,15 @@ h1 {
 }
 
 span, p, a {
-  font-size: 0.93rem;
+  font-size: 0.8rem;
 }
 
 a {
   text-decoration: none;
+  padding-bottom: 10px;
 }
 
 a:hover {
-  padding-bottom: 2rem;
   border-bottom: 1px solid white;
 }
 
@@ -133,6 +133,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0.8rem;
   gap: 2rem;
 }
 
@@ -157,6 +158,19 @@ ul {
 
 .section__left .section__left--image {
   width: 80%;
+}
+
+.section__right .section__right--title {
+  font-size: 2.5rem;
+}
+
+.section__right .section__right--info {
+  font-size: 0.9rem;
+}
+
+.footer .footer__text {
+  font-size: 0.8rem;
+  color: #a3a3a3;
 }
 
 body {
